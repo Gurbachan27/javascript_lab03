@@ -28,3 +28,71 @@
     margin-top: 20px;
   }
   
+  #car-info {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #car-image {
+    width: 30%;
+    text-align: center;
+  }
+  
+  #car-image img {
+    width: 200%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  /* Styling for the update section */
+  #modify-section {
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  select, input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+  }
+  
+  /* Hover effects for interactive elements */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Button for More Details */
+  #moreDetailsBtn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  #moreDetailsBtn:hover {
+    background-color: #0056b3;
+  }
+  
