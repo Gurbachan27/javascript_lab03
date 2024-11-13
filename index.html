@@ -25,3 +25,38 @@
       <p><strong>Vehicle Type:</strong> Pickup Truck</p>
       <p><strong>Features:</strong></p>
       <ul>
+        <li>Real Rubber Tires</li>
+        <li>Metal Body and Chassis</li>
+        <li>Detailed Exterior</li>
+        <li>Blister Pack Packaging</li>
+      </ul>
+      <button id="moreDetailsBtn">More Details</button>
+    </div>
+    <div id="car-image">
+      <img src="images\car.jpg" alt="1981 Chevy El Camino" />
+    </div>
+  </div>
+
+  <!-- Simple Update Section (Color Selector & Price Input) -->
+  <div id="modify-section">
+    <h3>Update Car Details</h3>
+    
+    <!-- Simplified Color Selector Dropdown -->
+    <label for="colorSelect">Choose Color:</label>
+    <select id="colorSelect">
+      <option value="Black" selected>Black</option>
+      <option value="Red">Red</option>
+      <option value="Blue">Blue</option>
+      <option value="Green">Green</option>
+      <option value="White">White</option>
+    </select>
+    
+    <label for="newPrice">New Price ($):</label>
+    <input type="number" id="newPrice" value="8.99" step="0.01">
+
+    <button onclick="updateCar()">Update Car</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
