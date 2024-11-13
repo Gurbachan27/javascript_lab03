@@ -1,0 +1,30 @@
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Header Section with gradient background */
+  header {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background: linear-gradient(to right, #333, #444);
+    color: white;
+  }
+  
+  /* Main container for car details and image */
+  #car-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
